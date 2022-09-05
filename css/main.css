@@ -1,0 +1,66 @@
+@charset 'utf-8';
+
+
+/*header*/
+
+#header{width:100%: background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(40px); position: sticky;top: 0; height:80px;}
+#header .wrap{padding:16px 48px;  padding-top:30px;}
+#header .wrap>a{font-size:22px; font-weight:500; color:#0F0F17; display: inline; }
+#header .wrap .menu{display: inline;float:right;}
+#header .wrap .menu a{font-size:16px; font-weight:500; letter-spacing: 3px; margin-right:32px; }
+#header .wrap .menu a:last-child{color:#ababb1;}
+#header .wrap .menu a:last-child:hover{color:#0f0f17;}
+
+/*section01: 인삿말*/
+
+#section01{width:100%;}
+#section01 .inner{width:1180px; margin:0 auto; padding:40px;}
+#section01 .inner h1{font-size:56px; line-height:160%; font-weight:200; color:#0F0F17;letter-spacing: 2px;}
+#section01 .inner h1 span{font-weight:bold;}
+#section01 .inner h4{font-size:18px; line-height:160%; margin-top:40px; font-weight:400; color:#4D4D55}
+#section01 .inner .btn01{width:220px; height:62px; background:#2f2f37; text-align: center; line-height: 62px; border-radius: 5px; margin-top:32px;}
+#section01 .inner .btn01 a{color:#fff;font-size:18px; display:block;}
+#section01 .inner .btn01:hover{background:#000;}
+
+/*section02: 쓰는 툴이랑 소개*/
+#section02{width:100%;}
+#section02 .inner{width:1180px; margin:0 auto; padding:40px;}
+#section02 .inner h3{font-size:24px; color:#0f0f17; margin-top:80px;}
+#section02 .inner .tools{}
+#section02 .inner .tools .box{float:left; display:inline; width:280px; margin-top:32px;}
+#section02 .inner .tools .box01{}
+#section02 .inner .tools p{font-size: 16px; font-weight:200; margin-bottom:16px;}
+#section02 .inner .tools img{margin-right:16px;}
+#section02 .inner .books{margin-top:32px;}
+#section02 .inner .books .box{float:left; display:inline-block; width:380px; }
+#section02 .inner .books .box img{}
+#section02 .inner .books .box .txtbox{display:block; float:left; margin-left:156px;}
+#section02 .inner .books .box01{background-image:url("../img/book01.png"); background-repeat: no-repeat; height:175px;}
+#section02 .inner .books .box02{background-image:url("../img/book02.png"); background-repeat: no-repeat; height:175px;}
+#section02 .inner .books .box03{background-image:url("../img/book03.png"); background-repeat: no-repeat; height:175px;}
+#section02 .inner .books .box .txtbox img{margin-bottom:16px;}
+#section02 .inner .books .box .txt01{font-size:18px; display:block; line-height:140%;}
+#section02 .inner .books .box .txt02{font-size:15px; margin-top:40px; color:#878790}
+
+
+/*section03: 관련경험*/
+#section03{width:100%;}
+#section03 .inner{width:1180px; margin:0 auto; padding:40px;}
+#section03 .inner h3{font-size:24px; color:#0f0f17; margin-bottom:40px;}
+#section03 .inner .box{margin-top:24px; height:200px; padding-left:600px;}
+#section03 .inner .box01{background-image: url("../img/experience01.png"); background-repeat:no-repeat;}
+#section03 .inner .box02{background-image: url("../img/experience02.png"); background-repeat:no-repeat;}
+#section03 .inner .box03{background-image: url("../img/experience03.png"); background-repeat:no-repeat;}
+#section03 .inner .box04{background-image: url("../img/experience04.png"); background-repeat:no-repeat;}
+#section03 .inner .box p{font-size: 18px; line-height: 160%; padding-top:16px;}
+#section03 .inner .box .tagBox{margin-top:10px; display:block;}
+#section03 .inner .box .tag{float:left; background:#f3f3f3; padding: 10px; border-radius: 4px; margin-left:8px; color:#878790}
+#section03 .inner .box02 a{font-size:16px; display:block; margin-top:32px; text-decoration:underline; color:#2f80ed; font-weight:200;}
+#section03 .inner .box02 a:hover{color:#7FABE7}
+
+/*section04: 마지막 인사*/
+#section04{width:100%; margin-bottom:80px;}
+#section04 .inner{width:1180px; margin:0 auto; background:#0f0f17; border-radius: 12px}
+#section04 .inner h4{font-size:32px; color:#fff; line-height: 160%; padding:40px;font-weight:500;}
+#section04 .inner h4 a{color:#56CCF2;}
+#section04 .inner h4 a:hover{text-decoration: underline}

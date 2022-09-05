@@ -1,0 +1,56 @@
+@charset 'utf-8';
+
+
+/*header*/
+
+#header{width:100%: background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(40px); position: sticky;top: 0; height:80px;}
+#header .wrap{padding:16px 48px;  padding-top:30px;}
+#header .wrap>a{font-size:22px; font-weight:500; color:#0F0F17; display: inline; }
+#header .wrap .menu{display: inline;float:right;}
+#header .wrap .menu a{font-size:16px; font-weight:500; letter-spacing: 3px; margin-right:32px; }
+#header .wrap .menu a:first-child{color:#ababb1;}
+#header .wrap .menu a:first-child:hover{color:#0f0f17;}
+
+/*section01: 대표 포트폴리오 3개*/ 
+#section01{width:100%; margin-top:40px;}
+#section01 .inner{width:1180px; margin:0 auto;}
+#section01 .inner .box{background-repeat: no-repeat; height:400px; margin-bottom:80px;}
+#section01 .inner .box01{background-image: url(../img/bigport01.png);}
+#section01 .inner .box02{background-image: url(../img/bigport02.png);}
+#section01 .inner .box03{background-image: url(../img/bigport03.png);}
+#section01 .inner .box .txtbox{float:left;  display: inline-block; padding-left:628px; color:#0f0f17;}
+#section01 .inner .box .txtbox img{}
+#section01 .inner .box .txtbox .line01{margin:24px 0px 16px; font-size:32px;  line-height: 32px;}
+#section01 .inner .box .txtbox .line02{font-size:20px; letter-spacing: 1.5px;}
+#section01 .inner .box .tagBox{margin-top:40px; display:block;}
+#section01 .inner .box .tag{float:left; background:#f3f3f3; padding: 10px; border-radius: 4px; margin-right:8px; color:#878790}
+#section01 .inner .box .btn{width:220px; height:56px; background:#2f2f37; text-align: center; line-height: 56px; border-radius: 5px; margin-top:40px;}
+#section01 .inner .box .btn a{color:#fff;font-size:18px; display:block;}
+#section01 .inner .box .btn a:hover{background:#000; border-radius: 5px;}
+
+/*section02: 그외 포트폴리오 8개*/ 
+#section02{width:100%; margin-top:40px;}
+#section02 .inner{width:1180px; margin:0 auto;}
+#section02 .inner .row{height:400px; margin-bottom:80px;}
+#section02 .inner .row .box{float:left; width:280px; height:400px; background-repeat: no-repeat; margin-right:20px;}
+#section02 .inner .row .box04{margin-right:0px;}
+#section02 .inner .row .box p{font-size:14px; line-height: 1.6em; letter-spacing: 1.2px; color:#0f0f17;}
+#section02 .inner .row .box p:first-child{padding-top:300px; font-size:20px; line-height: 1.6em; font-weight:600;}
+#section02 .inner .row .box .tagBox{margin-top:40px; display:block;}
+#section02 .inner .row .box .tagBox .tag{float:left; background:#f3f3f3; padding: 10px; border-radius: 4px; margin-right:8px; color:#878790}
+
+#section02 .inner .row01 .box01{background-image: url(../img/portThumb01.png);}
+#section02 .inner .row01 .box02{background-image: url(../img/portThumb02.png);}
+#section02 .inner .row01 .box03{background-image: url(../img/portThumb03.png);}
+#section02 .inner .row01 .box04{background-image: url(../img/portThumb04.png);}
+#section02 .inner .row02 .box01{background-image: url(../img/portThumb05.png);}
+#section02 .inner .row02 .box02{background-image: url(../img/portThumb06.png);}
+#section02 .inner .row02 .box03{background-image: url(../img/portThumb07.png);}
+#section02 .inner .row02 .box04{background-image: url(../img/portThumb08.png);}
+
+/*section03: 마지막 인사*/
+#section03{width:100%; margin-bottom:80px;}
+#section03 .inner{width:1180px; margin:0 auto; background:#0f0f17; border-radius: 12px}
+#section03 .inner h4{font-size:32px; color:#fff; line-height: 160%; padding:40px;font-weight:500;}
+#section03 .inner h4 a{color:#56CCF2;}
+#section03 .inner h4 a:hover{text-decoration: underline}
